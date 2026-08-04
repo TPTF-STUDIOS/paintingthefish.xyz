@@ -1,0 +1,47 @@
+# =========================================================================
+# TPTF STUDIOS - OFFICIAL ROBOTS.TXT
+# Copyright © 2026 TPTF Studios. All Rights Reserved.
+# Search indexing ALLOWED for humans | AI scraping strictly BANNED.
+# =========================================================================
+
+# -------------------------------------------------------------------------
+# SECTION 1: BAN ALL KNOWN AI TRAINING AND SCRAPING BOTS
+# -------------------------------------------------------------------------
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Anthropic-AI
+Disallow: /
+
+User-agent: Cohere-AI
+Disallow: /
+
+# -------------------------------------------------------------------------
+# SECTION 2: ALLOW SEARCH ENGINES TO INDEX EVERYTHING ELSE
+# -------------------------------------------------------------------------
+User-agent: *
+Allow: /
