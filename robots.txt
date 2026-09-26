@@ -40,6 +40,9 @@ Disallow: /
 User-agent: Cohere-AI
 Disallow: /
 
+User-agent: bingbot
+Disallow: /
+
 # -------------------------------------------------------------------------
 # SECTION 2: ALLOW SEARCH ENGINES TO INDEX EVERYTHING ELSE
 # -------------------------------------------------------------------------
